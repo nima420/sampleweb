@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> </head>
+
+<body>
+    <div id="myNav" class="overlay container">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">WEBSITENAME</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+
+                        <li>
+
+                            <a onclick="closeNav()">
+                                <span class="glyphicon glyphicon-remove"></span>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+        <!--        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+    <div class="search" id="search">
+        <div class="search-content">
+            <input type="text" placeholder="Search here.." name="search">
+
+            <a class="pull-right" onclick="closeSearch()">
+                <span class="glyphicon glyphicon-remove"></span>
+
+            </a>
+        </div>
+    </div>
+  
+    <div id="main">
+
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">WEBSITENAME</a>
+
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+
+                        <li><a onclick="openSearch()"><span class="glyphicon glyphicon-search"></span></a></li>
+                        <li>
+
+                            <a onclick="openNav()">
+                                <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" hamb">
+
+                    <!--                <a onclick="openNav()">-->
+                    <button data-toggle="collapse" data-target="#navres">
+
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div id="navres" class="collapse">
+            <ul class="nav nav-stacked">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+            </ul>
+
+        </div>
+
+        <div class="image">
+            <p> Welcome to our website WEBSITENAME. We are making as many efforts as possible to make our data valid and useful to all. Stay and navigate for more information..
+            </p>
+        </div>
+        <!--    ----->
+        <div class="wrap">
+            <div class="container">
+
+                <div class="row short-row">
+                    <div class="arow">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="pic pic1"></div>
+
+                            <span>About</span>
+                            <p>This is just a short excerpt for the about page.</p>
+                            <p> <a href="#">Read More</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <div class="arow">
+                            <div class="pic pic2"></div>
+
+                            <span>Contact</span>
+                            <p>This is just a short excerpt for the contact page.</p>
+                            <p><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <div class="arow">
+                            <div class="pic pic3"></div>
+                            <span>My First Blog</span>
+                            <p>This is just a short excerpt for the blog page.</p>
+                            <p> <a href="#">Read More</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--    ---->
+
+        
+        <div id="generic_price_table">   
+            <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!--PRICE HEADING START-->
+                                <div class="price-heading clearfix">
+                                    <h1>Pricing Table</h1>
+                                </div>
+                                <!--//PRICE HEADING END-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        
+                        <!--BLOCK ROW START-->
+                        <div class="row">
+                            <div class="col-md-4">
+                            
+                              <!--PRICE CONTENT START-->
+                                <div class="generic_content clearfix">
+                                    
+                                    <!--HEAD PRICE DETAIL START-->
+                                    <div class="generic_head_price clearfix">
+                                    
+                                        <!--HEAD CONTENT START-->
+                                        <div class="generic_head_content clearfix">
+                                        
+                                          <!--HEAD START-->
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span>Basic</span>
+                                            </div>
+                                            <!--//HEAD END-->
+                                            
+                                        </div>
+                                        <!--//HEAD CONTENT END-->
+                                        
+                                        <!--PRICE START-->
+                                        <div class="generic_price_tag clearfix">  
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">99</span>
+                                            </span>
+                                        </div>
+                                        <!--//PRICE END-->
+                                        
+                                    </div>                            
+                                    <!--//HEAD PRICE DETAIL END-->
+                                    
+                                    <!--FEATURE LIST START-->
+                                    <div class="generic_feature_list">
+                                      <ul>
+                                          <li><span>2GB</span> Bandwidth</li>
+                                            <li><span>150GB</span> Storage</li>
+                                            <li><span>12</span> Accounts</li>
+                                            <li><span>7</span> Host Domain</li>
+                                            <li><span>24/7</span> Support</li>
+                                        </ul>
+                                    </div>
+                                    <!--//FEATURE LIST END-->
+                                    
+                                    <!--BUTTON START-->
+                                    <div class="generic_price_btn clearfix">
+                                      <a class="" href="">Sign up</a>
+                                    </div>
+                                    <!--//BUTTON END-->
+                                    
+                                </div>
+                                <!--//PRICE CONTENT END-->
+                                    
+                            </div>
+                            
+                            <div class="col-md-4">
+                            
+                              <!--PRICE CONTENT START-->
+                                <div class="generic_content active clearfix">
+                                    
+                                    <!--HEAD PRICE DETAIL START-->
+                                    <div class="generic_head_price clearfix">
+                                    
+                                        <!--HEAD CONTENT START-->
+                                        <div class="generic_head_content clearfix">
+                                        
+                                          <!--HEAD START-->
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span>Standard</span>
+                                            </div>
+                                            <!--//HEAD END-->
+                                            
+                                        </div>
+                                        <!--//HEAD CONTENT END-->
+                                        
+                                        <!--PRICE START-->
+                                        <div class="generic_price_tag clearfix">  
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">199</span>
+                                            </span>
+                                        </div>
+                                        <!--//PRICE END-->
+                                        
+                                    </div>                            
+                                    <!--//HEAD PRICE DETAIL END-->
+                                    
+                                    <!--FEATURE LIST START-->
+                                    <div class="generic_feature_list">
+                                      <ul>
+                                          <li><span>2GB</span> Bandwidth</li>
+                                            <li><span>150GB</span> Storage</li>
+                                            <li><span>12</span> Accounts</li>
+                                            <li><span>7</span> Host Domain</li>
+                                            <li><span>24/7</span> Support</li>
+                                        </ul>
+                                    </div>
+                                    <!--//FEATURE LIST END-->
+                                    
+                                    <!--BUTTON START-->
+                                    <div class="generic_price_btn clearfix">
+                                      <a class="" href="">Sign up</a>
+                                    </div>
+                                    <!--//BUTTON END-->
+                                    
+                                </div>
+                                <!--//PRICE CONTENT END-->
+                                    
+                            </div>
+                            <div class="col-md-4">
+                            
+                              <!--PRICE CONTENT START-->
+                                <div class="generic_content clearfix">
+                                    
+                                    <!--HEAD PRICE DETAIL START-->
+                                    <div class="generic_head_price clearfix">
+                                    
+                                        <!--HEAD CONTENT START-->
+                                        <div class="generic_head_content clearfix">
+                                        
+                                          <!--HEAD START-->
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span>Unlimited</span>
+                                            </div>
+                                            <!--//HEAD END-->
+                                            
+                                        </div>
+                                        <!--//HEAD CONTENT END-->
+                                        
+                                        <!--PRICE START-->
+                                        <div class="generic_price_tag clearfix">  
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">299</span>
+                                            </span>
+                                        </div>
+                                        <!--//PRICE END-->
+                                        
+                                    </div>                            
+                                    <!--//HEAD PRICE DETAIL END-->
+                                    
+                                    <!--FEATURE LIST START-->
+                                    <div class="generic_feature_list">
+                                      <ul>
+                                          <li><span>4GB</span> Bandwidth</li>
+                                            <li><span>150GB</span> Storage</li>
+                                            <li><span>12</span> Accounts</li>
+                                            <li><span>7</span> Host Domain</li>
+                                            <li><span>24/7</span> Support</li>
+                                        </ul>
+                                    </div>
+                                    <!--//FEATURE LIST END-->
+                                    
+                                    <!--BUTTON START-->
+                                    <div class="generic_price_btn clearfix">
+                                      <a class="" href="">Sign up</a>
+                                    </div>
+                                    <!--//BUTTON END-->
+                                    
+                                </div>
+                                <!--//PRICE CONTENT END-->
+                                    
+                            </div>
+                        </div>  
+                        <!--//BLOCK ROW END-->
+                        
+                    </div>
+                    
+        <!--    ----->
+        <footer>
+            <div class="container">
+                <div class="row text-cen">
+
+                    
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <ul class="text ">
+                            <span>Texts</span>
+                            <p>
+                                This is a text widget. The Text Widget allows you to add text or HTML to your sidebar. You can use a text widget to display text, links, images, HTML, or a combination of these. Edit them in the Widget section of the Customizer.
+                            </p>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <ul class="menus ">
+                            <span>Menu</span>
+                            <li style="padding:0 0 12px 0; ">
+                                <a href="home.html">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+
+                            <li>
+                                <a href="blog.html ">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </footer>
+        <div class="main-foot ">
+            <div class="container ">
+                
+                <ul class="social pull-right ">
+
+                    <li>
+                        <a href="# "><i class="fa fa-facebook "></i></a>
+                    </li>
+
+                    <li>
+                        <a href="# "><i class="fa fa-twitter "></i></a>
+                    </li>
+
+
+                    <li>
+                        <a href="# "><i class="fa fa-pinterest "></i></a>
+                    </li>
+
+                    <li>
+                        <a href="# "><i class="fa fa-linkedin "></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+        function openSearch() {
+            document.getElementById("search").style.height = "100px";
+        }
+
+        function closeSearch() {
+            document.getElementById("search").style.height = "0%";
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>
